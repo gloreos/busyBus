@@ -1,0 +1,175 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.body{
+  font-size: 10px;
+}
+
+/**Navigation**/
+
+.bar{
+    margin: 0 auto;
+    width: 375px;
+    height: 20px;
+    background: url("images/iosBar.png") no-repeat;
+}
+
+.heading-container{
+  background-color: #396FC4;
+
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+
+  width: 375px;
+}
+
+
+.left{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.star{
+  width: 26px;
+  height: 26px;
+
+  margin: 16px 21px 20px 0;
+}
+
+.arrow{
+  width: 13px;
+  height: 21px;
+
+  margin: 20px 10px 22px 21px;
+}
+
+.heading-container h2{
+  padding: 8px 43px 1.5px 15px;
+  margin: 0;
+
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+
+  color: #F2F2F2;
+}
+
+.heading-container h4{
+  padding: 1.5px 95px 6px 15px;
+  margin: 0;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 15px;
+  color: #F2F2F2;
+}
+
+/*Content*/
+.content-container{
+  width: 375px;
+  margin: 0 auto;
+}
+
+.content{
+  width: 375px;
+  height: 82px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0;
+}
+
+.map{
+    margin: 0 auto;
+    width: 375px;
+    height: 307px;
+    background: url("images/map.png") no-repeat;
+    background-position: 0px -70px;
+}
+
+.direction{
+  height: 28px;
+  background: #396FC4;
+  display: flex;
+  align-items: center;
+}
+
+.direction h1{
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 15px;
+
+  color: #F2F2F2;
+
+  margin: 0;
+  padding-left: 25px;
+}
+
+hr{
+  float: right;
+  width: 349px;
+  border: 1px solid #E0E0E0;
+}
+
+.content h2{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 24px;
+
+  color: #f2f2f2;
+
+}
+
+.content h3{
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 18px;
+
+  color: #242121;
+
+  margin: 0 auto 0 45px;
+  padding: 22px 0 2.5px 0;
+}
+
+.content h4{
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 18px;
+
+  color: #396FC4;
+
+  margin: 0 auto 0 45px;
+  padding: 2.5px 0 20px 0;
+
+}
+
+.number{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 67px;
+  height: 34px;
+  background: #6084BD;
+  border-radius: 5px;
+
+  margin-left: 24px;
+}
