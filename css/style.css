@@ -22,8 +22,8 @@ ul, li{
 
 /**Navigation**/
 .bar{
-    margin: 0 auto;
     width: 375px;
+    margin: 0 auto;
     height: 20px;
     background: url("../images/iosBar.png") no-repeat;
 }
@@ -32,10 +32,10 @@ header {
   background-color: #396FC4;
 
   display: flex;
+  width: 375px;
   margin: 0 auto;
   justify-content: space-between;
 
-  width: 375px;
 }
 
 
