@@ -62,7 +62,7 @@ header h2{
   padding: 8px 43px 1.5px 15px;
   margin: 0;
 
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -76,7 +76,7 @@ header h4{
   padding: 1.5px 95px 6px 15px;
   margin: 0;
 
-  font-family: 'Raleway';
+  font-family: 'Raleway', Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -91,7 +91,7 @@ header h4{
   margin: 0 auto;
 }
 
-.content-container > div {
+.border {
   padding-left: 20px;
   background-color: #F2F2F2;
 }
@@ -122,9 +122,22 @@ header h4{
   align-items: center;
 }
 
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 67px;
+  height: 34px;
+  background: #6084BD;
+  border-radius: 5px;
+
+  margin-left: 0;
+}
+
       /**Content Fonts**/
 .direction h1{
-  font-family: 'Raleway';
+  font-family: 'Raleway', Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -136,8 +149,8 @@ header h4{
   padding-left: 25px;
 }
 
-.content h2{
-  font-family: 'Raleway';
+.number {
+  font-family: 'Raleway', Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -147,7 +160,7 @@ header h4{
 }
 
 .content h3{
-  font-family: 'Raleway';
+  font-family: 'Raleway', Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -160,7 +173,7 @@ header h4{
 }
 
 .content h4{
-  font-family: 'Raleway';
+  font-family: 'Raleway', Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
@@ -170,17 +183,4 @@ header h4{
 
   margin: 0 auto 0 45px;
   padding: 2.5px 0 20px 0;
-}
-
-.number{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 67px;
-  height: 34px;
-  background: #6084BD;
-  border-radius: 5px;
-
-  margin-left: 0;
 }
