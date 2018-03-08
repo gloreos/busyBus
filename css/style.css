@@ -30,12 +30,10 @@ ul, li{
 
 header {
   background-color: #396FC4;
-
   display: flex;
   width: 375px;
   margin: 0 auto;
   justify-content: space-between;
-
 }
 
 
@@ -57,6 +55,7 @@ header {
 
   margin: 20px 10px 22px 21px;
 }
+
     /**Header Fonts**/
 header h2{
   padding: 8px 43px 1.5px 15px;
@@ -69,7 +68,7 @@ header h2{
   font-size: 18px;
   letter-spacing: 0.04em;
 
-  color: #F2F2F2;
+  color: #F1E9DB;
 }
 
 header h4{
@@ -81,10 +80,10 @@ header h4{
   font-weight: 500;
   line-height: normal;
   font-size: 15px;
-  color: #F2F2F2;
+  color: #F1E9DB;
 }
 
-/*Content*/
+/**Content**/
 .content-container{
   width: 375px;
   height: 419px;
@@ -129,7 +128,7 @@ header h4{
   line-height: normal;
   font-size: 15px;
 
-  color: #F2F2F2;
+  color: #F1E9DB;
 
   margin: 0;
   padding-left: 25px;
@@ -142,7 +141,7 @@ header h4{
   line-height: normal;
   font-size: 24px;
 
-  color: #f2f2f2;
+  color: #F1E9DB;
 }
 
 .content h3{
